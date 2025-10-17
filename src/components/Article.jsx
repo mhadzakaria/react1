@@ -1,23 +1,11 @@
-function Article() {
-  const name = "Ahmad";
-  const titles = ['React', 'Tutorial'];
-  
+function Article(props) {
   return (
     // ini react fragment! <> </>
     <>
-      <div>Nama saya {name}!</div>
+      <h3>{props.title}!</h3>
       <div>
-        {titles.map(title => (
-          <div>{title}</div>
-        ))}
-        {titles.map(title => {
-          return (
-            <>
-              <div>{title}</div>
-              <div>{title}</div>
-            </>
-          )
-        })}
+        <p>{props.tags.join(", ")}</p>
+        <p>Date: {props.date}</p>
       </div>
     </>
   )
