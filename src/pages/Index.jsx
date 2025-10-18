@@ -5,10 +5,12 @@ import Search from "../components/Search"
 
 function Homepage() {
   const [posts, setPosts] = useState(postsData)
+  const [totalPosts, setTotalPosts] = useState(0)
   const setChangeSearch = (value) => {
     const filteredPosts = postsData.filter((post) =>
       post.title.toLowerCase().includes(value.toLowerCase())
     )
+    setTotalPosts(filteredPosts.length)
 
     setPosts(filteredPosts)
   }
@@ -16,7 +18,7 @@ function Homepage() {
     <>
       <h1>Simple Blog</h1>
 
-      <Search setChangeSearch={setChangeSearch}/>
+      <Search setChangeSearch={setChangeSearch} totalPosts={totalPosts}/>
 
       {/* jika kirim props/params selain string pake nya {} */}
       {posts.map( (post, index) => (
