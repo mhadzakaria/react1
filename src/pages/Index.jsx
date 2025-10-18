@@ -1,18 +1,24 @@
 import { useState } from "react"
-import posts from "./../posts.json"
+import postsData from "./../posts.json"
 import Article from "../components/Article"
+import Search from "../components/Search"
 
 function Homepage() {
-  const [search, setSearch] = useState("")
-  const changeSearch = (event) => {
-    setSearch(event.target.value)
+  const [posts, setPosts] = useState(postsData)
+  const setChangeSearch = (value) => {
+    const filteredPosts = postsData.filter((post) =>
+      post.title.toLowerCase().includes(value.toLowerCase())
+    )
+
+    setPosts(filteredPosts)
   }
   return (
     <>
       <h1>Simple Blog</h1>
+
+      <Search setChangeSearch={setChangeSearch}/>
+
       {/* jika kirim props/params selain string pake nya {} */}
-      <div>Cari : <input type="text" onChange={changeSearch} /></div>
-      <span>Ditemukan 0 data dengan teks {search}</span>
       {posts.map( (post, index) => (
         <Article title={post.title} date={post.date} tags={post.tags} key={index } />
       ))
