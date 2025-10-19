@@ -2,251 +2,85 @@
   {
     "title": "Tutorial Ruby on Rails #1",
     "tags": ["ruby", "rails"],
-    "date": "01/01/2021"
+    "date": "01/01/2021",
+    "isNew": false
   },
   {
     "title": "Tutorial JavaScript Dasar #2",
     "tags": ["javascript", "beginner"],
-    "date": "02/01/2021"
+    "date": "02/01/2021",
+    "isNew": false
   },
   {
     "title": "Belajar React Hooks #3",
     "tags": ["react", "hooks"],
-    "date": "03/01/2021"
+    "date": "03/01/2021",
+    "isNew": false
   },
   {
     "title": "Panduan Tailwind CSS #4",
     "tags": ["css", "tailwind"],
-    "date": "04/01/2021"
-  },
-  {
-    "title": "Mengenal TypeScript #5",
-    "tags": ["typescript", "javascript"],
-    "date": "05/01/2021"
-  },
-  {
-    "title": "Tutorial Ruby on Rails #6",
-    "tags": ["ruby", "rails"],
-    "date": "06/01/2021"
-  },
-  {
-    "title": "Tutorial JavaScript Dasar #7",
-    "tags": ["javascript", "beginner"],
-    "date": "07/01/2021"
-  },
-  {
-    "title": "Belajar React Hooks #8",
-    "tags": ["react", "hooks"],
-    "date": "08/01/2021"
-  },
-  {
-    "title": "Panduan Tailwind CSS #9",
-    "tags": ["css", "tailwind"],
-    "date": "09/01/2021"
-  },
-  {
-    "title": "Mengenal TypeScript #10",
-    "tags": ["typescript", "javascript"],
-    "date": "10/01/2021"
-  },
-  {
-    "title": "Tutorial Ruby on Rails #11",
-    "tags": ["ruby", "rails"],
-    "date": "11/01/2021"
-  },
-  {
-    "title": "Tutorial JavaScript Dasar #12",
-    "tags": ["javascript", "beginner"],
-    "date": "12/01/2021"
-  },
-  {
-    "title": "Belajar React Hooks #13",
-    "tags": ["react", "hooks"],
-    "date": "13/01/2021"
-  },
-  {
-    "title": "Panduan Tailwind CSS #14",
-    "tags": ["css", "tailwind"],
-    "date": "14/01/2021"
-  },
-  {
-    "title": "Mengenal TypeScript #15",
-    "tags": ["typescript", "javascript"],
-    "date": "15/01/2021"
-  },
-  {
-    "title": "Tutorial Ruby on Rails #16",
-    "tags": ["ruby", "rails"],
-    "date": "16/01/2021"
-  },
-  {
-    "title": "Tutorial JavaScript Dasar #17",
-    "tags": ["javascript", "beginner"],
-    "date": "17/01/2021"
-  },
-  {
-    "title": "Belajar React Hooks #18",
-    "tags": ["react", "hooks"],
-    "date": "18/01/2021"
-  },
-  {
-    "title": "Panduan Tailwind CSS #19",
-    "tags": ["css", "tailwind"],
-    "date": "19/01/2021"
-  },
-  {
-    "title": "Mengenal TypeScript #20",
-    "tags": ["typescript", "javascript"],
-    "date": "20/01/2021"
-  },
-  {
-    "title": "Tutorial Ruby on Rails #21",
-    "tags": ["ruby", "rails"],
-    "date": "21/01/2021"
-  },
-  {
-    "title": "Tutorial JavaScript Dasar #22",
-    "tags": ["javascript", "beginner"],
-    "date": "22/01/2021"
-  },
-  {
-    "title": "Belajar React Hooks #23",
-    "tags": ["react", "hooks"],
-    "date": "23/01/2021"
-  },
-  {
-    "title": "Panduan Tailwind CSS #24",
-    "tags": ["css", "tailwind"],
-    "date": "24/01/2021"
-  },
-  {
-    "title": "Mengenal TypeScript #25",
-    "tags": ["typescript", "javascript"],
-    "date": "25/01/2021"
-  },
-  {
-    "title": "Tutorial Ruby on Rails #26",
-    "tags": ["ruby", "rails"],
-    "date": "26/01/2021"
-  },
-  {
-    "title": "Tutorial JavaScript Dasar #27",
-    "tags": ["javascript", "beginner"],
-    "date": "27/01/2021"
-  },
-  {
-    "title": "Belajar React Hooks #28",
-    "tags": ["react", "hooks"],
-    "date": "28/01/2021"
-  },
-  {
-    "title": "Panduan Tailwind CSS #29",
-    "tags": ["css", "tailwind"],
-    "date": "29/01/2021"
-  },
-  {
-    "title": "Mengenal TypeScript #30",
-    "tags": ["typescript", "javascript"],
-    "date": "30/01/2021"
-  },
-  {
-    "title": "Tutorial Ruby on Rails #31",
-    "tags": ["ruby", "rails"],
-    "date": "31/01/2021"
+    "date": "04/01/2021",
+    "isNew": false
   },
   {
     "title": "Tutorial JavaScript Dasar #32",
     "tags": ["javascript", "beginner"],
-    "date": "01/02/2021"
+    "date": "01/02/2021",
+    "isNew": true
   },
   {
     "title": "Belajar React Hooks #33",
     "tags": ["react", "hooks"],
-    "date": "02/02/2021"
+    "date": "02/02/2021",
+    "isNew": true
   },
   {
     "title": "Panduan Tailwind CSS #34",
     "tags": ["css", "tailwind"],
-    "date": "03/02/2021"
+    "date": "03/02/2021",
+    "isNew": true
   },
   {
     "title": "Mengenal TypeScript #35",
     "tags": ["typescript", "javascript"],
-    "date": "04/02/2021"
+    "date": "04/02/2021",
+    "isNew": true
   },
   {
     "title": "Tutorial Ruby on Rails #36",
     "tags": ["ruby", "rails"],
-    "date": "05/02/2021"
+    "date": "05/02/2021",
+    "isNew": true
   },
   {
     "title": "Tutorial JavaScript Dasar #37",
     "tags": ["javascript", "beginner"],
-    "date": "06/02/2021"
+    "date": "06/02/2021",
+    "isNew": true
   },
   {
     "title": "Belajar React Hooks #38",
     "tags": ["react", "hooks"],
-    "date": "07/02/2021"
+    "date": "07/02/2021",
+    "isNew": true
   },
   {
     "title": "Panduan Tailwind CSS #39",
     "tags": ["css", "tailwind"],
-    "date": "08/02/2021"
+    "date": "08/02/2021",
+    "isNew": true
   },
   {
     "title": "Mengenal TypeScript #40",
     "tags": ["typescript", "javascript"],
-    "date": "09/02/2021"
+    "date": "09/02/2021",
+    "isNew": true
   },
   {
     "title": "Tutorial Ruby on Rails #41",
     "tags": ["ruby", "rails"],
-    "date": "10/02/2021"
-  },
-  {
-    "title": "Tutorial JavaScript Dasar #42",
-    "tags": ["javascript", "beginner"],
-    "date": "11/02/2021"
-  },
-  {
-    "title": "Belajar React Hooks #43",
-    "tags": ["react", "hooks"],
-    "date": "12/02/2021"
-  },
-  {
-    "title": "Panduan Tailwind CSS #44",
-    "tags": ["css", "tailwind"],
-    "date": "13/02/2021"
-  },
-  {
-    "title": "Mengenal TypeScript #45",
-    "tags": ["typescript", "javascript"],
-    "date": "14/02/2021"
-  },
-  {
-    "title": "Tutorial Ruby on Rails #46",
-    "tags": ["ruby", "rails"],
-    "date": "15/02/2021"
-  },
-  {
-    "title": "Tutorial JavaScript Dasar #47",
-    "tags": ["javascript", "beginner"],
-    "date": "16/02/2021"
-  },
-  {
-    "title": "Belajar React Hooks #48",
-    "tags": ["react", "hooks"],
-    "date": "17/02/2021"
-  },
-  {
-    "title": "Panduan Tailwind CSS #49",
-    "tags": ["css", "tailwind"],
-    "date": "18/02/2021"
-  },
-  {
-    "title": "Mengenal TypeScript #50",
-    "tags": ["typescript", "javascript"],
-    "date": "19/02/2021"
+    "date": "10/02/2021",
+    "isNew": true
   }
 ]
