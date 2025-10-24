@@ -17,10 +17,19 @@ function Homepage() {
   }
 
   useEffect(() => {
+    console.log('panggil sekali')
     fetch('https://jsonplaceholder.typicode.com/posts')
       .then(response => response.json())
       .then(json => setExternalPosts(json))
   }, []) // jalankan useEffect hanya sekali saat load, [] menunjukan tidak ada state yg di pantau
+
+  useEffect(() => {
+    console.log('list post data berubah')
+  }, [posts]) // jalankan useEffect saat state posts berubah atau di sentuh
+
+  useEffect(() => {
+    console.log('berubah')
+  }) // jalankan useEffect setiap ada perubahan state apapun
 
   return (
     <>
