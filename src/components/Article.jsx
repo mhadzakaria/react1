@@ -1,3 +1,6 @@
+import { useContext } from "react";
+import { GlobalContext } from "../context";
+
 const ArticleStatus = ({ isNew }) => {
   // ini cara ternary
   // return isNew ? <span>(Baru)</span> : ''
@@ -7,6 +10,7 @@ const ArticleStatus = ({ isNew }) => {
 }
 
 function Article(props) {
+  const user = useContext(GlobalContext)
   return (
     // ini react fragment! <> </>
     <>
@@ -17,6 +21,8 @@ function Article(props) {
           <br />
           Date: {props.date}
           <ArticleStatus isNew={props.isNew}/>
+          <br />
+          <span>Dibuat oleh : {user.username}</span>
         </p>
       </div>
     </>
