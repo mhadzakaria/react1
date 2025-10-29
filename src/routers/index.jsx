@@ -4,6 +4,8 @@ import RootLayout from "../layouts/RootLayout";
 import AboutPage from "../pages/About";
 import Blog from "../pages/blogs/Index";
 import DetailBlog from "../pages/blogs/_id";
+import { postById } from "../apis/loader";
+
 
 export const router = createBrowserRouter([
   {
@@ -16,11 +18,12 @@ export const router = createBrowserRouter([
       },
       {
         path: "/blogs",
-        element: <Blog />
+        element: <Blog /> // without loader, use fetch inside  page
       },
       {
         path: "/blogs/:id",
-        element: <DetailBlog />
+        element: <DetailBlog />,  // using loader, so without blank section on first load
+        loader: postById
       },
       {
         path: "/about",
