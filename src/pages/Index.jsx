@@ -6,7 +6,6 @@ import Search from "../components/Search"
 function Homepage() {
   const [posts, setPosts] = useState(postsData)
   const [totalPosts, setTotalPosts] = useState(0)
-  const [externalPosts, setExternalPosts] = useState([])
   const setChangeSearch = (value) => {
     const filteredPosts = postsData.filter((post) =>
       post.title.toLowerCase().includes(value.toLowerCase())
@@ -18,9 +17,6 @@ function Homepage() {
 
   useEffect(() => {
     console.log('panggil sekali')
-    fetch('https://jsonplaceholder.typicode.com/posts')
-      .then(response => response.json())
-      .then(json => setExternalPosts(json))
   }, []) // jalankan useEffect hanya sekali saat load, [] menunjukan tidak ada state yg di pantau
 
   useEffect(() => {
@@ -48,12 +44,6 @@ function Homepage() {
 
       {posts.map((props, index) => (
         <Article {...props} key={index}/>
-      ))}
-
-      <hr />
-
-      {externalPosts.map((props, index) => (
-        <div key={index}>- {props.title}</div>
       ))}
     </>
   )
