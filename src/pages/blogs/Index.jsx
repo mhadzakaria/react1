@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react"
+import { Link } from "react-router-dom"
 
 function Blog() {
   const [externalPosts, setExternalPosts] = useState([])
@@ -19,7 +20,9 @@ function Blog() {
       <h1>Blog</h1>
 
       {externalPosts.map((props, index) => (
-        <div key={index}>- {props.title}</div>
+        <div key={index}>
+          <Link to={ `/blogs/${props.id}` }>- {props.title}</Link>
+        </div>
       ))}
     </>
   )
