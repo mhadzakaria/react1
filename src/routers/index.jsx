@@ -4,6 +4,7 @@ import RootLayout from "../layouts/RootLayout";
 import AboutPage from "../pages/About";
 import Blog from "../pages/blogs/Index";
 import DetailBlog from "../pages/blogs/_id";
+import Posts from "../pages/Posts";
 import { postById } from "../apis/loader";
 import ErrorPage from "../components/ErrorPage";
 
@@ -29,6 +30,10 @@ export const router = createBrowserRouter([
       {
         path: "/about",
         element: <AboutPage />
+      },
+      {
+        path: "/posts",
+        element: <Posts />
       }
     ]
   }
